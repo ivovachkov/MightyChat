@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Models", "Chat.Models\Chat.Models.csproj", "{B2BA7E52-8F14-4A8D-9AA6-6ACC8A7E3FB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Repository", "Chat.Repository\Chat.Repository.csproj", "{038DD9CA-FB9E-4255-9668-37FCC769811C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Services", "Chat.Services\Chat.Services.csproj", "{8029BF30-99ED-4D82-9CCC-C57E8C460732}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2BA7E52-8F14-4A8D-9AA6-6ACC8A7E3FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BA7E52-8F14-4A8D-9AA6-6ACC8A7E3FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2BA7E52-8F14-4A8D-9AA6-6ACC8A7E3FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2BA7E52-8F14-4A8D-9AA6-6ACC8A7E3FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{038DD9CA-FB9E-4255-9668-37FCC769811C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{038DD9CA-FB9E-4255-9668-37FCC769811C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{038DD9CA-FB9E-4255-9668-37FCC769811C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{038DD9CA-FB9E-4255-9668-37FCC769811C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8029BF30-99ED-4D82-9CCC-C57E8C460732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8029BF30-99ED-4D82-9CCC-C57E8C460732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8029BF30-99ED-4D82-9CCC-C57E8C460732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8029BF30-99ED-4D82-9CCC-C57E8C460732}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

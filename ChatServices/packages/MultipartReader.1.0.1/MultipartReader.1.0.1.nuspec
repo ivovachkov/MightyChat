@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>MultipartReader</id>
+    <version>1.0.1</version>
+    <title>Multipart Reader</title>
+    <authors>Václav Dajbych</authors>
+    <owners>Václav Dajbych</owners>
+    <projectUrl>http://dul.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ASP.NET reader/parser of the HTTP multipart/form-data content sent from Windows Runtime via MultipartFormDataContent class.</description>
+    <releaseNotes />
+    <copyright />
+    <language />
+    <tags>ASP.NET HTTP POST MultipartFormDataContent</tags>
+  </metadata>
+</package>

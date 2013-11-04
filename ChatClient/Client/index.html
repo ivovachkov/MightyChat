@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="Styles/reset.css" rel="stylesheet" />
+    <link href="Styles/main.css" rel="stylesheet" />
+    <link href="Content/themes/base/jquery-ui.css" rel="stylesheet" />
+    <title>Mighty Mouse Chat</title>
+</head>
+<body>
+    <section id="header">
+        <img id="logo" src="Images/logoMM64.png" alt="Logo" width="64" height="63"/>
+        <h1>Mighty Chat</h1>
+        <div id="login" >
+            <input type="text" id="username" placeholder="Username"/>
+            <input type="password" id="password" placeholder="Password"/>
+            <button id="loginBtn" onclick="ui.loginUser();" class="ui-widget button">Login</button>
+            <div><a href="#" onclick="register.create();">Click to register</a></div>
+        </div>
+    </section>
+    <section id="messages">
+        <h3>Messages</h3>
+        <div id="messageWindow"></div>
+        <form id="sendMessage" enctype="multipart/form-data">
+            <input type="text" id="messageToSend" placeholder="Type your message here" />
+            <button id="sendBtn" onclick="controller.sendMessage();">Send</button>
+            <button id="file">Add file</button>
+            <input type="file" id="fileupload" onchange="ui.uploadFile();"/>
+            <div id="fileField"></div>
+            <input type="hidden" id="fileUrl" value="" />
+            <input type="hidden" id="fileName" value="" />
+        </form>
+    </section>
+    <aside id="contacts">
+        <h3>Contacts</h3>
+        <div id="contactList">
+            <ul id="contactUsers">
+
+            </ul>
+        </div>
+    </aside>
+    <script src="Scripts/jquery-2.0.3.min.js"></script>
+    <script src="Scripts/jquery-ui-1.10.3.min.js"></script>
+    <script src="Scripts/registerDialog.js"></script>
+    <script src="Scripts/jquery.html5uploader.js"></script>
+    <script src="Scripts/class.js"></script>
+    <script src="Scripts/uploader/vendor/jquery.ui.widget.js"></script>
+    <script src="Scripts/uploader/jquery.fileupload.js"></script>
+    <script src="Scripts/uploader/jquery.iframe-transport.js"></script>
+    <script src="http://cdn.pubnub.com/pubnub-3.5.3.min.js" ></script>
+    <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/sha1.js"></script>
+    <script src="Scripts/httpRequester.js"></script>
+    <script src="Scripts/persisters.js"></script>
+    <script src="Scripts/controler.js"></script>
+    <script src="Scripts/ui.js"></script>
+    <script src="Scripts/initialize.js"></script>
+</body>
+</html>
